@@ -2,7 +2,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  /*background: linear-gradient(to bottom, #98decc 0%,#98decc 50%,#000000 50%,white 50%,white 100%);*/
+  background: linear-gradient(to bottom, #98decc 0%,#98decc 50%,#000000 50%,white 50%,white 100%);
   max-width: 800px;
   position: static;
   margin: auto;
