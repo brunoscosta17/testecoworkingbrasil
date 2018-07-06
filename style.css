@@ -1,7 +1,7 @@
 * {box-sizing:border-box}
 /* Slideshow container */
 .slideshow-container {
-  /*background: linear-gradient(to bottom, #98decc 50%,white 50%,white 100%);*/
+  background: linear-gradient(to bottom, #98decc 50%,white 50%,white 100%);
   max-width: 800px;
   position: static;
   margin: auto;
@@ -23,7 +23,7 @@
   bottom: 18px;
   width: 100%;
   text-align: center;
-  margin-top: 30%;
+  margin-top: 10%;
 }
 
 .text-card {
@@ -41,7 +41,7 @@
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  /*transition: background-color 0.2s ease;*/
 }
 
 .active, .dot:hover {
@@ -51,9 +51,9 @@
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: .2s;
   animation-name: fade;
-  animation-duration: 1s;
+  animation-duration: .2s;
 }
 
 @-webkit-keyframes fade {
@@ -67,13 +67,14 @@
 }
 
 .slide {
+  background: white;
     box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 12px 16px;
-    width: 300px;
-    height: 600px;    
+    width: 310px;
+    height: 550px;    
     border-radius: 2%;
 }
 
@@ -83,10 +84,10 @@
   height: 150px; 
   overflow: hidden;
   position: relative;
-  margin-left: 23%;
+  margin-left: 25%;
   margin-top: 30%;
 }
 
 .dot-class {
-  margin-top: -30px;
+  margin-top: -50px;
 }
