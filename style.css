@@ -1,11 +1,4 @@
 * {box-sizing:border-box}
-
-.container {
-  max-width: 800px;
-  background: linear-gradient(to bottom, #98decc 50%,white 50%,white 100%);
-  position: static;
-  margin: auto;
-}
 /* Slideshow container */
 .slideshow-container {
   /*background: linear-gradient(to bottom, #98decc 50%,white 50%,white 100%);*/
